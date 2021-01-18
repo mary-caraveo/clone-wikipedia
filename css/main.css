@@ -22,14 +22,15 @@ header .header-elements {
   font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times,
     serif;
 }
+
 .main-languajes {
   position: relative;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   vertical-align: middle;
-  width: 500px;
+  width: 490px;
   height: 300px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 52px auto;
 }
 
 .main-languajes a {
@@ -38,8 +39,8 @@ header .header-elements {
 
 .main-languajes img {
   position: absolute;
-  top: 70px;
-  left: 150px;
+  top: 78px;
+  left: 145px;
 }
 
 .main-languajes a {
@@ -63,8 +64,8 @@ header .header-elements {
 .main-languajes a p {
   text-align: inherit;
   color: #54595d;
-  font-size: 12px;
-  margin: 5px 0 0 0;
+  font-size: 13px;
+  margin: 0;
 }
 
 .main-languajes a:hover p {
@@ -75,60 +76,70 @@ header .header-elements {
   position: absolute;
   top: 15px;
   left: 55px;
+  padding-top: 2px;
 }
 
 .main-languaje-2 {
   position: absolute;
   top: 15px;
   right: 55px;
+  padding-top: 2px;
 }
 
 .main-languaje-3 {
   position: absolute;
   top: 75px;
   left: 10px;
+  padding-top: 8px;
 }
 
 .main-languaje-4 {
   position: absolute;
   top: 75px;
-  right: 10px;
+  right: 6px;
+  padding-top: 8px;
 }
 
 .main-languaje-5 {
   position: absolute;
   top: 135px;
-  left: 0;
+  left: -5px;
+  padding-top: 12px;
 }
 
 .main-languaje-6 {
   position: absolute;
   top: 135px;
-  right: 0;
+  right: -6px;
+  padding-top: 12px;
 }
 
 .main-languaje-7 {
   position: absolute;
   top: 195px;
   left: 10px;
+  padding-top: 16px;
 }
 
 .main-languaje-8 {
   position: absolute;
   top: 195px;
   right: 10px;
+  padding-top: 15px;
 }
 
 .main-languaje-9 {
   position: absolute;
   top: 255px;
   left: 55px;
+  padding-top: 21px;
 }
 
 .main-languaje-10 {
   position: absolute;
   top: 255px;
-  right: 55px;
+  right: 68px;
+  padding-top: 20px;
 }
 
 .search-input {
@@ -144,6 +155,7 @@ header .header-elements {
   display: flex;
   align-items: center;
 }
+
 .input-container:hover {
   border-color: #72777d;
 }
@@ -151,11 +163,10 @@ header .header-elements {
 .input-container input {
   border: none;
   width: 310px;
-  padding-right: 10px;
+  padding: 0 10px 0 12px;
   outline: none;
   height: 35px;
   font-size: 16px;
-  padding-left: 12px;
 }
 
 .selector-container {
@@ -163,7 +174,7 @@ header .header-elements {
 }
 
 #language-selector {
-  width: 38px;
+  width: 37px;
   height: 100%;
   border: none;
   color: #54595d;
@@ -204,13 +215,14 @@ header .header-elements {
 .lang-list-button-wrapper {
   text-align: center;
 }
+
 .lang-list-button {
   background-color: #f8f9fa;
   display: inline;
   position: relative;
   z-index: 1;
   margin: 0 auto;
-  padding: 6px 12px;
+  padding: 2px 0px 2px 12px;
   outline: 16px solid #fff;
   border: 1px solid #a2a9b1;
   border-radius: 2px;
@@ -219,6 +231,7 @@ header .header-elements {
   font-weight: 700;
   line-height: 1;
 }
+
 .lang-list-button i {
   display: inline-block;
   vertical-align: middle;
@@ -252,25 +265,26 @@ header .header-elements {
   position: relative;
   max-width: 460px;
   width: 80%;
-  margin: -1.6rem auto 1.6rem;
+  margin: -16px auto 16px;
   height: 1px;
 }
 
 .main-hr {
-  width: 98%;
+  width: 99%;
   clear: both;
   border: none;
   border-bottom: 1px solid #c8ccd1;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .main-side {
   display: inline-block;
   width: 350px;
   height: 350px;
-  margin: 50px 0px 50px 100px;
+  margin: 40px 0px 50px 100px;
   color: #54595d;
   font-size: 13px;
+  padding-left: 70px;
 }
 
 .main-side-fundation {
@@ -278,7 +292,7 @@ header .header-elements {
   height: 76px;
   font-size: 13px;
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 
 .main-side-fundation img {
@@ -286,11 +300,11 @@ header .header-elements {
   top: 0;
   left: 0;
 }
+
 .main-side-fundation span {
   position: absolute;
   margin: 0;
-  padding-left: 60px;
-  padding-right: 20px;
+  padding-left: 55px;
   color: #54595d;
   font-size: 13px;
   width: 270px;
@@ -300,7 +314,7 @@ header .header-elements {
   margin: 0 auto;
   height: 180px;
   position: relative;
-  padding-top: 10px;
+  padding-top: 8px;
   background-color: #f8f9fa;
 }
 
@@ -313,8 +327,7 @@ header .header-elements {
 
 .main-side-apps span {
   position: absolute;
-  padding-left: 60px;
-  padding-right: 20px;
+  padding-left: 55px;
   color: #54595d;
   font-size: 13px;
   width: 270px;
@@ -323,20 +336,19 @@ header .header-elements {
 .main-grid {
   display: inline-block;
   position: absolute;
-  margin: 50px 0px 50px 100px;
+  margin: 40px 0px 50px 100px;
   width: 60%;
 }
 
 .main-grid-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 50px;
+  /* min-height: 50px; */
 }
 
 .main-grid-link {
   display: inline-block;
-  padding-top: 0;
-  padding-bottom: 100px;
+  padding: 0 0 91px 50px;
   width: 100%;
   white-space: nowrap;
 }
@@ -350,6 +362,7 @@ header .header-elements {
   top: 0;
   left: 0;
 }
+
 .main-grid-link a span {
   position: absolute;
   margin: 0 60px;
@@ -359,6 +372,7 @@ header .header-elements {
 .main-grid-link a strong {
   font-size: 14px;
   color: #36c;
+  font-weight: normal;
 }
 
 .main-grid-link a p {
@@ -381,6 +395,7 @@ footer a {
   padding-left: 8px;
   text-decoration: none;
 }
+
 footer a:hover {
   text-decoration: underline;
 }

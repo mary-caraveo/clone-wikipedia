@@ -151,7 +151,7 @@ header .header-elements {
 .input-container {
   border: 1px solid #bfc4c9;
   border-radius: 2px;
-  height: 40px;
+  height: 42px;
   display: flex;
   align-items: center;
 }
@@ -163,7 +163,7 @@ header .header-elements {
 .input-container input {
   border: none;
   width: 310px;
-  padding: 0 10px 0 12px;
+  padding: 0 22px 0 12px;
   outline: none;
   height: 35px;
   font-size: 16px;
@@ -183,15 +183,15 @@ header .header-elements {
 
 .search-btn {
   background-color: #3366cc;
-  border-width: 1px 2px 1px 1px;
+  border-width: 1px 2px 0 1px;
   border-style: solid;
   border-color: #3366cc;
   outline: none;
   cursor: pointer;
-  width: 55px;
+  width: 52px;
   height: 100%;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 16px;
   padding: 0;
   box-sizing: content-box;
 }
@@ -281,7 +281,7 @@ header .header-elements {
   display: inline-block;
   width: 350px;
   height: 350px;
-  margin: 40px 0px 50px 100px;
+  margin: 40px 0 0 100px;
   color: #54595d;
   font-size: 13px;
   padding-left: 70px;
@@ -336,14 +336,14 @@ header .header-elements {
 .main-grid {
   display: inline-block;
   position: absolute;
-  margin: 40px 0px 50px 100px;
+  margin: 30px 0px 50px 100px;
   width: 60%;
 }
 
 .main-grid-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* min-height: 50px; */
+  min-height: 50px;
 }
 
 .main-grid-link {
@@ -365,7 +365,7 @@ header .header-elements {
 
 .main-grid-link a span {
   position: absolute;
-  margin: 0 60px;
+  margin: 5px 60px 0;
   width: 200px;
 }
 

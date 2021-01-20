@@ -17,6 +17,10 @@ header .header-elements {
   padding-top: 15px;
 }
 
+.header-elements img {
+  width: 180px;
+}
+
 .header-elements span {
   font-size: 15px;
   font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times,

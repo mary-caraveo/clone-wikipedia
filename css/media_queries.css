@@ -1,8 +1,4 @@
 @media (max-width: 575.98px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .main-grid-links {
     grid-template-columns: 1fr 1fr;
   }
@@ -17,6 +13,7 @@
   .main-languajes {
     margin: 0;
     height: 350px;
+    width: 350px;
   }
 
   .main-languajes a span {
@@ -30,7 +27,7 @@
   }
 
   .main-languaje-2 {
-    right: 262px;
+    right: 120px;
     top: 56px;
     padding-top: 0;
   }
@@ -43,7 +40,7 @@
 
   .main-languaje-4 {
     top: 135px;
-    right: 380px;
+    right: 240px;
     padding-top: 0;
   }
 
@@ -55,7 +52,7 @@
 
   .main-languaje-6 {
     top: 135px;
-    right: 140px;
+    right: 2px;
     padding-top: 0;
   }
 
@@ -67,7 +64,7 @@
 
   .main-languaje-8 {
     top: 214px;
-    right: 260px;
+    right: 120px;
     padding-top: 0;
   }
 
@@ -79,14 +76,14 @@
 
   .main-languaje-10 {
     top: 290px;
-    right: 380px;
+    right: 245px;
     padding-top: 0;
   }
 
   .main-languajes img {
     position: relative;
     top: -60px;
-    left: -160px;
+    left: -80px;
     width: 55px;
   }
 
@@ -96,16 +93,17 @@
 
   .header-elements img {
     padding: 10px 40px 0 25px;
+    width: 150px;
   }
 
   .main-grid-link {
-    padding: 0 0 91px 0;
+    padding: 0 0 91px 0px;
     white-space: normal;
   }
 
   .main-side {
-    margin: 0;
-    padding-left: 0;
+    margin: auto;
+    padding-left: 1px;
   }
 
   .main-side-fundation img {
@@ -120,6 +118,7 @@
 
   .main-side-apps {
     top: 600px;
+    height: 55%;
   }
 
   .main-grid-link a span {
@@ -141,7 +140,7 @@
 
   header .header-elements {
     padding-top: 0;
-    margin-left: 100px;
+    margin-left: 110px;
   }
 
   .main-grid-link a p {
@@ -149,13 +148,10 @@
   }
 
   .main-side-apps span {
-    height: 100%;
-  }
-
-  .main-side-apps span {
     text-align: center;
     width: 100%;
     padding: 0 0 10px 0;
+    height: 100%;
   }
 
   .main-side-apps-wiki {
@@ -169,7 +165,7 @@
   }
 
   .main-side-apps span p {
-    padding: 25px 0 0 5px;
+    padding-top: 25px;
     margin: 0;
   }
 

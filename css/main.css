@@ -184,6 +184,7 @@ header .header-elements {
   border: none;
   color: #54595d;
   align-self: center;
+  background-color: transparent;
 }
 
 .search-btn {

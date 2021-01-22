@@ -14,6 +14,7 @@
   .main-languajes {
     height: 370px;
     width: 350px;
+    margin: auto;
   }
 
   .main-languajes a span {
@@ -83,7 +84,7 @@
   .main-languajes img {
     position: relative;
     top: -60px;
-    left: -80px;
+    left: -90px;
     width: 55px;
   }
 
@@ -94,6 +95,7 @@
   .header-elements img {
     padding: 10px 40px 0 25px;
     width: 150px;
+    margin-left: 0;
   }
 
   .main-grid-link {
@@ -133,6 +135,14 @@
     position: absolute;
     padding-left: 10px;
     top: 105px;
+  }
+
+  .search-input .input-container {
+    margin-left: 10px;
+  }
+
+  .input-container input {
+    padding: 0;
   }
 
   .search-btn {
@@ -189,6 +199,7 @@
     margin: 0;
     position: relative;
     top: -200px;
+    padding-left: 20px;
   }
 
   .main-grid-links {
@@ -246,7 +257,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .main-side {
     margin: 40px 0 0;
-    padding-left: 20px;
+    padding-left: 55px;
     width: 350px;
     height: 340px;
   }

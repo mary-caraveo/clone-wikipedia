@@ -186,6 +186,69 @@
   }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-grid {
+    position: relative;
+    margin: 0 0 0 14px;
+    top: -220px;
+    width: 96%;
+  }
+  .main-side {
+    margin: auto;
+    padding-left: 1px;
+    width: 98%;
+  }
+
+  .main-side-apps {
+    top: -80px;
+    height: 145px;
+    padding-top: 30px;
+  }
+
+  .main-side-apps span {
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .main-side-apps-wiki {
+    left: 200px;
+    top: 25px;
+    width: 25px;
+  }
+
+  .main-side-apps .apps-commets {
+    margin-top: 25px;
+  }
+
+  .main-side-fundation {
+    height: 450px;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .main-side-fundation img {
+    left: 340px;
+    top: -60px;
+  }
+
+  .main-side-fundation span {
+    position: relative;
+    padding: 0;
+    text-align: center;
+    width: 0;
+  }
+
+  .main-grid-link {
+    white-space: normal;
+    padding: 0 0 85px 0;
+  }
+
+  .main-grid-link a p {
+    width: 160px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .main-side {
     width: 100%;
@@ -257,7 +320,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .main-side {
     margin: 40px 0 0;
-    padding-left: 55px;
+    padding-left: 20px;
     width: 350px;
     height: 340px;
   }
@@ -269,7 +332,6 @@
 
   .main-grid-links {
     justify-items: flex-end;
-    margin-right: 15px;
   }
 
   .main-grid-link a span {

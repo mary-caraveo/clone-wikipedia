@@ -349,7 +349,6 @@ header .header-elements {
 .main-grid-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 50px;
 }
 
 .main-grid-link {

@@ -19,6 +19,7 @@ header .header-elements {
 
 .header-elements img {
   width: 180px;
+  margin-left: 10px;
 }
 
 .header-elements span {

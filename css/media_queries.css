@@ -1,6 +1,7 @@
 @media (max-width: 575.98px) {
   .main-grid-links {
     grid-template-columns: 1fr 1fr;
+    margin: 0 10px;
   }
 
   .main-grid {
@@ -11,8 +12,7 @@
   }
 
   .main-languajes {
-    margin: 0;
-    height: 350px;
+    height: 370px;
     width: 350px;
   }
 
@@ -58,7 +58,7 @@
 
   .main-languaje-7 {
     top: 214px;
-    left: 10px;
+    left: 11px;
     padding-top: 0;
   }
 
@@ -76,7 +76,7 @@
 
   .main-languaje-10 {
     top: 290px;
-    right: 245px;
+    right: 242px;
     padding-top: 0;
   }
 
@@ -104,6 +104,7 @@
   .main-side {
     margin: auto;
     padding-left: 1px;
+    width: 98%;
   }
 
   .main-side-fundation img {
@@ -136,6 +137,7 @@
 
   .search-btn {
     width: 90px;
+    padding: 0;
   }
 
   header .header-elements {
@@ -171,6 +173,73 @@
 
   footer {
     padding-top: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-side {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 12px 0 25px 0;
+  }
+
+  .main-grid {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: -200px;
+  }
+
+  .main-grid-links {
+    margin: 0 10px;
+  }
+
+  .main-side-apps {
+    top: 330px;
+    text-align: center;
+    height: 140px;
+  }
+
+  .main-side-apps span {
+    position: relative;
+    padding-left: 0;
+    width: 0;
+  }
+
+  .main-side-apps .apps-commets {
+    margin-top: 25px;
+  }
+
+  .main-side-apps-wiki {
+    top: 0;
+    left: 220px;
+  }
+
+  .main-grid-link {
+    white-space: normal;
+    padding: 0 0 85px 0;
+  }
+
+  .main-grid-link a p {
+    width: 160px;
+  }
+
+  .main-side-fundation {
+    padding-bottom: 0;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .main-side-fundation img {
+    top: -15px;
+    left: 353px;
+  }
+  .main-side-fundation span {
+    position: relative;
+    margin: 2px;
+    padding-left: 0;
+    width: 0;
   }
 }
 

@@ -184,7 +184,14 @@ header .header-elements {
   border: none;
   color: #54595d;
   align-self: center;
-  background-color: transparent;
+  background: transparent;
+  outline: none;
+}
+
+#language-selector:hover {
+  cursor: pointer;
+  background-color: rgb(255, 250, 250);
+  outline: gainsboro;
 }
 
 .search-btn {
